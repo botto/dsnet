@@ -3,10 +3,14 @@ module github.com/naggie/dsnet
 go 1.13
 
 require (
-	github.com/go-playground/validator/v10 v10.2.0
-	github.com/google/uuid v1.1.1 // indirect
-	github.com/vishvananda/netlink v1.0.0
-	github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df // indirect
-	golang.org/x/tools v0.0.0-20200302155637-b1e4e04173e0 // indirect
-	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200205215550-e35592f146e4
+	github.com/go-playground/validator/v10 v10.4.1
+	github.com/leodido/go-urn v1.2.1 // indirect
+	github.com/mdlayher/netlink v1.2.0 // indirect
+	github.com/vishvananda/netlink v1.1.0
+	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
+	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
+	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
+	golang.org/x/sys v0.0.0-20201223074533-0d417f636930 // indirect
+	golang.zx2c4.com/wireguard v0.0.20201118 // indirect
+	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20200609130330-bd2cb7843e1b
 )
